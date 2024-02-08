@@ -8,10 +8,13 @@ setup(
     py_modules=['weatherpredict'],
     install_requires=[
         'Click',
+        'NeuralProphet',
+        'matplotlib',
+        'pandas',
     ],
     entry_points={
         'console_scripts': [
-            'weatherpredict = app:cli',
+            'weatherpredict = cli:cli',
         ],
     },
 )

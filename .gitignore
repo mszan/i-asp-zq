@@ -1,3 +1,4 @@
 .history
 .venv
 *egg-info/
+lightning_logs
