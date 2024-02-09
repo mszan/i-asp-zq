@@ -2,7 +2,7 @@
 
 Simple weather prediction app.
 
-## Usage
+## Usage MAC
 
 1. Create and enable virtual environment.
 
@@ -32,4 +32,36 @@ $ source .venv/bin/activate
 
 ```
 (.venv) $ weatherpredict predict --input=input.csv --output=./output --periods-in-days=360 --column-date=datetime --column-parameter=temp
+```
+
+## Usage Windows
+
+1. Create and enable virtual environment.
+
+```
+python -m venv .venv
+```
+```
+.venv\Scripts\activate
+```
+
+
+2. Setup CLI app.
+
+```
+pip install --editable .
+```
+
+3. Run the app.
+
+```
+weatherpredict --help
+```
+
+```
+weatherpredict predict --help
+```
+
+```
+weatherpredict predict --input=input.csv --output=./output --periods-in-days=360 --column-date=datetime --column-parameter=temp
 ```
