@@ -3,3 +3,5 @@
 *egg-info/
 lightning_logs
 output
+__pychace__
+.DS_Store
